@@ -13,4 +13,4 @@ If you ever want this setup don't forget to follow these two steps you dumb fuck
     git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 
 
-# 2. Go to packer.lua and :so, :PackerSync
+# 2. nvim into lua/thehogan/packer.lua and :so, :PackerSync
