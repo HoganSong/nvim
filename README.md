@@ -1,5 +1,11 @@
-If you ever want this setup don't forget to follow these two steps you dumb fuck
+# You can download a specific version of neovim on Linux with
+    curl -LO https://github.com/neovim/neovim/releases/download/v<specific version>/nvim-linux-x86_64.appimage
+    chmod u+x nvim-linux-x86_64.appimage
+    mv nvim-linux-x86_64.appimage ~/.local/bin/nvim
+    echo 'export PATH="~/.local/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
 
+If you ever want this setup don't forget to follow these two steps you dumb fuck
 
 # 1. Clone the packer.nvim repository and install it:
 
@@ -14,3 +20,4 @@ If you ever want this setup don't forget to follow these two steps you dumb fuck
 
 
 # 2. nvim into lua/thehogan/packer.lua and :so, :PackerSync
+
