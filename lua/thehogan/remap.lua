@@ -32,4 +32,4 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 --Nvim Tree toggle
-vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<cr>")
+vim.keymap.set("n", "<leader>e", ":NvimTreeFindFile<cr>")
